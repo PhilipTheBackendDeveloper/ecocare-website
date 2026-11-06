@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<title>EcoCare Cleaning Services Limited</title>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/img/favicon-01.png"> 
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+
+	<!-- Fearther CSS -->
+	<link rel="stylesheet" href="assets/css/feather.css">
+
+	<!-- select CSS -->
+	<link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
+
+    <!-- Datetimepicker CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+</head>
+
+<body class="mt-0">
+	
+	<div class="main-wrapper">
+		<div class="bg-img">
+			<img src="assets/img/bg/work-bg-03.png" alt="img" class="bgimg1">
+			<img src="assets/img/bg/work-bg-03.png" alt="img" class="bgimg2">
+			<img src="assets/img/bg/feature-bg-03.png" alt="img" class="bgimg3">
+		</div>
+		
+		<div class="content">
+			<div class="container">
+				<div class="row">
+					
+					<!-- Booking -->
+					<div class="col-md-12">
+					
+						<div class="login-back">
+							<a href="service-grid.html"><i class="feather-arrow-left"></i> Back</a>
+						</div>
+					
+						<!-- Booking Step -->
+						<ul class="step-register row">
+							<li class="active col-md-4">
+								<div class="multi-step-icon">
+									<img src="assets/img/icons/calendar-icon.svg" alt="img">
+								</div>
+								<div class="multi-step-info">
+									<h6>Appointment</h6>
+									<p>Choose time & date for the service</p>
+								</div>
+							</li>
+							<!-- <li class="col-md-4">
+								<div class="multi-step-icon">
+									<img src="assets/img/icons/wallet-icon.svg" alt="img">
+								</div>
+								<div class="multi-step-info">
+									<h6>Appointment time date</h6>
+									<p>Select Payment Gateway</p>
+								</div>
+							</li> -->
+							<li class="col-md-4">
+								<div class="multi-step-icon">
+									<img src="assets/img/icons/book-done.svg" alt="img">
+								</div>
+								<div class="multi-step-info">
+									<h6>Done </h6>
+									<p>Completion of Booking</p>
+								</div>
+							</li>
+						</ul>
+						
+						<!-- /Booking Step -->
+						
+						<!-- Appointment -->
+						<div class="booking-service">
+							<div class="row align-items-center">
+								<div class="col-lg-6">
+									<div class="service-book">
+										<div class="service-book-img">
+											<img src="assets/img/services/carpet-2.png" alt="img">
+										</div>
+										<div class="serv-profile">
+											<span class="badge">Cleaning</span>
+											<h2>Carpet Services</h2>
+											<ul>
+												<!-- <li class="serv-pro">
+													<img src="assets/img/profiles/avatar-01.jpg" alt="img">
+													<div class="serv-pro-info">
+														<h6>Thomas Herzberg</h6>
+														<p class="serv-review"><i class="fa-solid fa-star"></i> <span>4.9 </span>(255 reviews)</p>
+													</div>
+												</li> -->
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="row align-items-center">
+										<div class="col-md-7 col-sm-6">
+											<div class="provide-box">
+												<span><i class="feather-phone"></i></span>
+												<div class="provide-info">
+													<h6>Phone</h6>
+													<a href="tel:+233 24 380 7100"><p>+233 24 380 7100</p></a>
+									<a href="tel:+233 24 901 4253"><p>+233 24 901 4253</p></a>
+												</div>
+											</div>
+											<div class="provide-box">
+												<span><i class="feather-mail"></i></span>
+												<div class="provide-info">
+													<h6>Email</h6>
+													<a href="mailto:ecocaregh1on1@gmail.com"><p>ecocaregh1on1@gmail.com</p></a>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-5 col-sm-6">
+											<div class="provide-box">
+												<span><i class="feather-map-pin"></i></span>
+												<div class="provide-info">
+													<h6>Address</h6>
+													<p>Mile 7, Accra</p>
+												</div>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								
+								<form action="carpet-booking.php" method="POST">
+									<div class="row">
+										<div class="col-md-6">
+											<div class="form-group">
+												<label class="col-form-label">Name</label>
+												<input class="form-control" type="text" name="name" placeholder="Enter Name*" required>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<label class="col-form-label">Phone Number</label>
+												<input class="form-control" type="text" name="phone" placeholder="Enter Phone Number" required>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="form-group">
+												<label class="col-form-label">Email</label>
+												<input class="form-control" type="email" name="email" placeholder="Enter Email Address*" required>
+											</div>
+										</div>
+									</div>
+									
+									<div class="book-form">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="form-group">
+													<label class="col-form-label">Service Type</label>
+													<select class="form-control" name="serviceType" required>
+														<option value="">Select service</option>
+														<option>Carpet Cleaning</option>
+														<option>Carpet Installation</option>
+														<option>Carpet Repair</option>
+														<option>Carpet Stretching</option>
+														<option>Carpet Rebonding</option>
+														<option>Deep Cleaning</option>
+														<option>Stain Removal</option>
+														<option>Pet Odor Removal</option>
+														<option>Shampooing</option>
+														<option>Dry Cleaning</option>
+														<option>Steam Cleaning</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="form-group">
+													<label class="col-form-label">State</label>
+													<select class="form-control" name="state" required>
+														<option value="">Select State</option>
+														<option>On-Site Service</option>
+														<option>Pick-Up and Delivery</option>
+														<option>In-Store Service</option>
+														<option>Express Service</option>
+														<option>Mobile Service</option>
+														<option>Standard Service</option>
+														<option>Self-Service</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="form-group">
+													<label class="col-form-label">Location</label>
+													<select class="form-control" name="location" required>
+														<option value="">Select Location</option>
+														<option>Accra Central</option>
+														<option>Osu</option>
+														<option>East Legon</option>
+														<option>Labone</option>
+											<option>Airport Residential Area</option>
+											<option>Dansoman</option>
+											<option>Kwame Nkrumah Circle</option>
+											<option>Kotobabi</option>
+											<option>Adabraka</option>
+											<option>Madina</option>
+											<option>Achimota</option>
+											<option>North Kaneshie</option>
+											<option>South Kaneshie</option>
+											<option>Spintex</option>
+											<option>Roman Ridge</option>
+											<option>Abelenkpe</option>
+											<option>La</option>
+											<option>Weija</option>
+											<option>Amrahia</option>
+											<option>Bubuashie</option>
+											<option>Okaishie</option>
+											<option>New Town</option>
+											<option>Jamestown</option>
+											<option>Lapaz</option>
+											<option>Tsawtso</option>
+											<option>Gbawe</option>
+											<option>Darkuman</option>
+											<option>Madina-Zongo</option>
+											<option>Dansoman-Angola</option>
+											<option>Adenta</option>
+											<option>Fadama</option>
+											<option>Agbogba</option>
+											<option>Sege</option>
+											<option>Kpeshie</option>
+											<option>Dodowa</option>
+											<option>La Nkwantanang</option>
+											<option>Gbawe-Kwashieman</option>
+											<option>Awoshie</option>
+											<option>Tabora</option>
+											<option>Mbrom</option>
+											<option>Vigilance</option>
+											<option>Achimota-Odorkor</option>
+											<option>Kwabenya</option>
+											<option>Oyarifa</option>
+											<option>Shai Hills</option>
+											<option>Kokrobite</option>
+											<option>Abokobi</option>
+											<option>Tsito</option>
+											<option>Pokuase</option>
+											<option>Oyibi</option>
+											<option>Legon</option>
+											<option>Haatso</option>
+											<option>Baatsona</option>
+											<option>Madina-Adentan</option>
+											<option>Teiman</option>
+											<option>Okaishie-Kwame Nkrumah Circle</option>
+											<option>Ridge</option>
+											<option>Korle-Bu</option>
+											<option>Kwashieman</option>
+											<option>West Legon</option>
+											<option>East Legon Hills</option>
+											<option>Alajo</option>
+											<option>Adenta West</option>
+											<option>Old Fadama</option>
+											<option>Achimota Forest</option>
+											<option>Trassaco Valley</option>
+											<option>Bojo Beach</option>
+											<option>Giffard Road</option>
+											<option>Madina Estate</option>
+											<option>Labadi</option>
+											<option>Abofu</option>
+											<option>Abuakwa</option>
+											<option>Beahu</option>
+											<option>Osu Klottey</option>
+											<option>Chantan</option>
+											<option>Bubuashie-Kokomlemle</option>
+											<option>Adenta East</option>
+											<option>Dodowa District</option>
+											<option>Gbawe-Kwabenya</option>
+											<option>Pokuase-Dome</option>
+											<option>Legon Village</option>
+											<option>Upper West Legon</option>
+											<option>Kasoa</option>
+											<option>Takoradi</option>
+											<option>Kumasi</option>
+											<option>Tamale</option>
+											<option>Cape Coast</option>
+											<option>Sunyani</option>
+											<option>Ho</option>
+											<option>Berekum</option>
+											<option>Bolgatanga</option>
+											<option>Takoradi</option>
+											<option>Wenchi</option>
+											<option>Techiman</option>
+											<option>Swedru</option>
+											<option>Nkawkaw</option>
+											<option>Akosombo</option>
+											<option>Akim Oda</option>
+											<option>Nkawie</option>
+											<option>Abetifi</option>
+											<option>Asamankese</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="row">
+										<div class="col-md-4">
+											<div class="form-group">
+												<label class="col-form-label">Appointment Date</label>
+												<input class="form-control" type="date" name="appointmentDate" required>
+											</div>
+										</div>
+										<div class="col-md-8">
+											<div class="form-group">
+												<label class="col-form-label">Appointment Time</label>
+												<select class="form-control" name="appointmentTime" required>
+													<option value="">Select Time</option>
+													<option>07:00 AM</option>
+													<option>07:30 AM</option>
+													<option>08:00 AM</option>
+													<option>08:30 AM</option>
+													<option>09:00 AM</option>
+													<option>09:30 AM</option>
+													<option>10:00 AM</option>
+													<option>10:30 AM</option>
+													<option>11:00 AM</option>
+													<option>11:30 AM</option>
+													<option>12:00 PM</option>
+													<option>12:30 PM</option>
+													<option>01:00 PM</option>
+													<option>01:30 PM</option>
+													<option>02:00 PM</option>
+													<option>02:30 PM</option>
+													<option>03:00 PM</option>
+													<option>03:30 PM</option>
+													<option>04:00 PM</option>
+													<option>04:30 PM</option>
+													<option>05:00 PM</option>
+													<option>05:30 PM</option>
+													<option>06:00 PM</option>
+													<option>06:30 PM</option>
+													<option>07:00 PM</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<button class="btn btn-primary" type="submit">Submit</button>
+									</div>
+								</form>
+								
+						<!-- /Appointment Date & Time -->
+						
+					</div>
+					<!-- /Booking -->
+					
+				</div>
+			</div>
+		</div>
+		
+		<!-- Cursor -->
+		<div class="mouse-cursor cursor-outer"></div>
+		<div class="mouse-cursor cursor-inner"></div>
+		<!-- /Cursor -->	
+
+		
+		
+	</div>
+	
+	<!-- jQuery -->
+	<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.6.1.min.js"></script>
+
+	<!-- Bootstrap Core JS -->
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Fearther JS -->
+	<script src="assets/js/feather.min.js"></script>
+
+	<!-- select CSS -->
+	<script src="assets/plugins/select2/js/select2.min.js"></script>
+
+    <!-- Datetimepicker JS -->
+    <script src="assets/js/moment.min.js"></script>
+    <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="assets/js/script.js"></script>
+	
+</body>
+
+
+</html>
